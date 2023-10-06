@@ -6,4 +6,6 @@ This app was built using VueJS, Vue Router, Vuex and Firebase.
   
 The live project is deployed at Firebase.  
   
-It was one of Vue course project.
+It was one of Vue course project.  
+
+https://vue-find-coach-app-1d911.web.app/
