@@ -6,7 +6,7 @@ export default {
     };
 
     // ---firebase related start here---
-    const response = await fetch(`https://vue-find-coach-app-1d911-default-rtdb.asia-southeast1.firebasedatabase.app/requests/${payload.coachId}.json`, {
+    const response = await fetch(`https://FIREBASE_REALTIME_DB_LINK/requests/${payload.coachId}.json`, {
       method: 'POST',
       body: JSON.stringify(newRequest),
     });
@@ -38,7 +38,7 @@ export default {
     // after finishing the auth[register/login], we add ?auth=token here
     const token = context.rootGetters.token;
 
-    const response = await fetch(`https://vue-find-coach-app-1d911-default-rtdb.asia-southeast1.firebasedatabase.app/requests/${coachId}.json?auth=${token}`);
+    const response = await fetch(`https://FIREBASE_REALTIME_DB_LINK/requests/${coachId}.json?auth=${token}`);
 
     const responseData = await response.json();
 
