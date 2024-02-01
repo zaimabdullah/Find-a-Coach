@@ -2,7 +2,7 @@
   
 The application helps you find a coach to teach you skills in your area of interest. You can also register as a coach and receive enquiries from potential students. All data is persistent as it was saved in a database. It was one of Vue course project.
 
-#### Web Link: [Live Website](https://vue-find-coach-app-1d911.web.app/)  
+### Web Link: [Live Website](https://vue-find-coach-app-1d911.web.app/)  
 
 |  Home                             |  
 |-----------------------------------------|
